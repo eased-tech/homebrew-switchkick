@@ -2,28 +2,28 @@
 class Switchkick < Formula
   desc "Proxy that routes OpenAI and Anthropic API traffic through OpenRouter"
   homepage "https://github.com/eased-tech/switchkick"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/eased-tech/switchkick/releases/download/v0.2.0/switchkick-darwin-arm64"
-      sha256 "31075490469fc8c94aa87c7689e0c4d63d398f2a4b8583b4bdea9b61512a531c"
+      url "https://github.com/eased-tech/switchkick/releases/download/v0.3.0/switchkick-darwin-arm64"
+      sha256 "853cebab9c16c292675daa03c4d0325c13ea3c4aaf6d9dd097f3c838ed23acc4"
     end
     on_intel do
-      url "https://github.com/eased-tech/switchkick/releases/download/v0.2.0/switchkick-darwin-x64"
-      sha256 "47574739d48bd052c3b9f18a50888a84804f92c501b0700ac97503c2aace1923"
+      url "https://github.com/eased-tech/switchkick/releases/download/v0.3.0/switchkick-darwin-x64"
+      sha256 "038d9148efa177d9930bd86f0a7f4c652d0195a2339561132d0acb32271919f1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eased-tech/switchkick/releases/download/v0.2.0/switchkick-linux-arm64"
-      sha256 "4358c656b0cda93189feebd7017a83980fc1fb70e80186d595558504003f0331"
+      url "https://github.com/eased-tech/switchkick/releases/download/v0.3.0/switchkick-linux-arm64"
+      sha256 "b62bc9a9db6855af7fa3d6af0dafed8a6ce18e54a4d2b3c22c61063c18f48cf4"
     end
     on_intel do
-      url "https://github.com/eased-tech/switchkick/releases/download/v0.2.0/switchkick-linux-x64"
-      sha256 "bb92871a2cc4f49fda4d63218e324c37a9c342f82402fcb3088352cef13b764f"
+      url "https://github.com/eased-tech/switchkick/releases/download/v0.3.0/switchkick-linux-x64"
+      sha256 "a786e755b957f8e9fa03e6a4abaabac54d73340052d22a8e94d73b34350ce994"
     end
   end
 
